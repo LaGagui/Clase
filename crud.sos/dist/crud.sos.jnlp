@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="crud.sos.jnlp">
+  <information>
+    <title>crud.sos</title>
+    <vendor>salma</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="crud.sos.jar" size="11233" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="17038" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="crud.sos.CrudSos"  name="crud.sos" />
+  <update check="always"/>
+</jnlp>
